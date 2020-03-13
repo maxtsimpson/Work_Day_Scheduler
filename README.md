@@ -23,12 +23,18 @@ WHEN I scroll down
 THEN I am presented with timeblocks for standard business hours
 WHEN I view the timeblocks for that day
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+    write a function to get the currentTime
+    write a function that updates timeblocks given the time
 WHEN I click into a timeblock
 THEN I can enter an event
+    add an event listener for timeblocks. use event delegation
 WHEN I click the save button for that timeblock
+    add an event listener for save buttons
 THEN the text for that event is saved in local storage
+    write a function to save the event text to storage. use a property from the timeblock as the key
 WHEN I refresh the page
 THEN the saved events persist
+    write a render timeblocks function that takes timeblock objects from local storage and stores the event text. when it renders it will set the timeblock colour, event text etc.
 ```
 
 The following animation demonstrates the application functionality:
