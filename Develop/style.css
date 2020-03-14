@@ -29,7 +29,8 @@ textarea{
 .time-block{
   text-align: center;
   border-left: 1px solid black;
-  /* border-radius: 15px; */
+  /* i know it was in the orginal style sheet but this looks wrong
+  border-radius: 15px; */
 }
 
 .row {

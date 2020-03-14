@@ -1,3 +1,8 @@
+
+The app is using several ES6 features so is only compatible with modern browsers (not IE).
+
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
